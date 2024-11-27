@@ -1,2 +1,0 @@
-# blog
-study blog
