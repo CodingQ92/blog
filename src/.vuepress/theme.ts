@@ -12,7 +12,8 @@ export default hopeTheme({
   iconAssets: "fontawesome-with-brands",
   // 个人头像
   logo: "logo.svg",
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  // 右上角显示仓库地址
+  // repo: "", 
   docsDir: "src",
   // 导航栏
   navbar,

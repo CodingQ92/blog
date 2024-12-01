@@ -3,6 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
+bgImage: http://8.129.76.213:9000/images/moke.png
 heroImage: logo.svg
 heroText: CodingQ92
 heroFullScreen: true
