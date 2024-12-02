@@ -3,10 +3,10 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
-bgImage: http://8.129.76.213:9000/images/moke.png
-heroImage: logo.svg
+# bgImage: http://8.129.76.213:9000/images/moke.png
+# heroImage: logo.svg
 heroText: CodingQ92
-heroFullScreen: true
+# heroFullScreen: true
 tagline: 🤡呦,还在努力写BUG呢🤡 
 projects:
   # - icon: project
