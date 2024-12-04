@@ -2,25 +2,32 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
       "/",
-      // "/demo/", // 直接跳转到指定的目录下
       {
             text: "Java",
             icon: "java",
-            prefix: "/posts/",
+            prefix: "/Java/",
             children: [
                   {
                         text: "Java基础",
                         icon: "java",
-                        prefix: "apple/",
+                        prefix: "base/",
                         children: [
-                              { text: "苹果1", icon: "pen-to-square", link: "1" },
+                              { text: "基础", icon: "java", link: "base" },
+                              { text: "集合", icon: "collection", link: "collection" },
+                              { text: "Map", icon: "collection", link: "Map" },
+                              { text: "并发", icon: "concurrency", link: "concurrency" },
+                              { text: "JVM", icon: "JVM", link: "jvm" },
+                        ],
+                  },
+                  {
+                        text: "Java框架",
+                        icon: "java",
+                        prefix: "frame/",
+                        children: [
+                              { text: "Spring", icon: "Spring", link: "Spring" },
+                              { text: "SpringBoot", icon: "SpringBoot", link: "SpringBoot" },
                         ],
                   }
             ],
       },
-      // {
-      //       text: "V2 文档",
-      //       icon: "book",
-      //       link: "https://theme-hope.vuejs.press/zh/",
-      // },
 ]);

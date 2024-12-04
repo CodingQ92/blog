@@ -5,22 +5,32 @@ export default sidebar({
             "",
             "intro",
             {
-                  text: "如何使用",
-                  icon: "laptop-code",
-                  prefix: "demo/",
-                  link: "demo/",
-                  children: "structure",
-            },
-            {
-                  text: "文章",
-                  icon: "book",
-                  prefix: "posts/",
-                  children: "structure",
-            },
-            {
-                  text: "幻灯片",
-                  icon: "person-chalkboard",
-                  link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
+                  text: "Java",
+                  icon: "java",
+                  prefix: "/Java/",
+                  children: [
+                        {
+                              text: "Java基础",
+                              icon: "java",
+                              prefix: "base/",
+                              children: [
+                                    { text: "基础", icon: "java", link: "base" },
+                                    { text: "集合", icon: "collection", link: "collection" },
+                                    { text: "Map", icon: "collection", link: "Map" },
+                                    { text: "并发", icon: "concurrency", link: "concurrency" },
+                                    { text: "JVM", icon: "JVM", link: "jvm" },
+                              ],
+                        },
+                        {
+                              text: "Java框架",
+                              icon: "java",
+                              prefix: "frame/",
+                              children: [
+                                    { text: "Spring", icon: "Spring", link: "Spring" },
+                                    { text: "SpringBoot", icon: "SpringBoot", link: "SpringBoot" },
+                              ],
+                        }
+                  ],
             },
       ],
 });

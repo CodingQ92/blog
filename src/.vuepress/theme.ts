@@ -9,7 +9,7 @@ export default hopeTheme({
             name: "CodingQ92",
             // url: "https://mister-hope.com",
       },
-      iconAssets: "//at.alicdn.com/t/c/font_4767760_99hdsku98hj.css",
+      iconAssets: "//at.alicdn.com/t/c/font_4767760_4i786fdedsi.css",
       // 个人头像
       logo: "logo.svg",
       // 右上角显示仓库地址
