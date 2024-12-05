@@ -27,7 +27,7 @@ export default navbar([
                               { text: "Spring", icon: "Spring", link: "Spring" },
                               { text: "SpringBoot", icon: "SpringBoot", link: "SpringBoot" },
                         ],
-                  }
+                  },
             ],
       },
 ]);
